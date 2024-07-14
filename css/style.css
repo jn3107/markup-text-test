@@ -1,0 +1,177 @@
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 1024px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 0 auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.section-container {
+  margin-top: 120px;
+  margin-bottom: 200px;
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.hero-text {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 400;
+  font-size: 25px;
+  text-align: justify;
+  margin-bottom: 10px;
+}
+
+.text-title {
+  font-weight: 700;
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.text {
+  font-weight: 400;
+  font-size: 25px;
+  margin-bottom: 40px;
+}
+
+.table-title {
+  font-weight: 700;
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.table-description {
+  font-weight: bolder;
+  font-size: 28px;
+  text-align: start;
+}
+
+.table {
+  width: 100%;
+  margin-bottom: 60px;
+}
+
+.table,
+.table-row,
+.table-data {
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+
+.table-data-img {
+  padding: 15px 15px 60px 15px;
+  width: 100px;
+}
+
+.table-img {
+  width: 200px;
+  height: 170px;
+}
+
+.table-data-list {
+  padding-left: 104px;
+  margin-bottom: 25px;
+}
+
+.table-data-item-text {
+  font-weight: 400;
+  font-size: 25px;
+}
+
+.table-data-link {
+  font-weight: 400;
+  font-size: 20px;
+  color: blue;
+  padding-left: 130px;
+}
+
+.advantages-title {
+  font-weight: 700;
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.advantages-container {
+  display: block;
+  display: flex;
+  margin-bottom: 80px;
+}
+
+.advantages-img {
+  width: 420px;
+  height: 420px;
+  float: left;
+}
+
+.advantages-text {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 400;
+  font-size: 25px;
+  margin: 0;
+}
+
+.reliability-title {
+  font-weight: 700;
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.reliability-list {
+  padding-left: 75px;
+}
+
+.reliability-item {
+  font-weight: 400;
+  font-size: 25px;
+  width: 766px;
+}
+
+.reliability-item:not(:last-child) {
+  margin-bottom: 20px;
+}
