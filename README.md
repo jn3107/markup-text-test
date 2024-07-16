@@ -1,6 +1,6 @@
 # markup-text-test
 
-Test task for the position of front-end developer.
+Test task for the position of Front-End Developer.
 
 Link: https://drive.google.com/file/d/1--_tPitB_N2PL23WHqgQ978sRvlPBrC2/view
 
